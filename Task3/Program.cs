@@ -2,15 +2,15 @@
 // 4->24
 // 5->120
 
-int SumNum(int num)
+int Multiplate(int num)
 {
-    int all_sum = 1;
+    int all_mult = 1;
     for (int i = 1; i <= num; i++)
     {
-        all_sum *= i;
+        all_mult *= i;
     }
-    return all_sum;
+    return all_mult;
 }
 
-Console.WriteLine(SumNum(4));
-Console.WriteLine(SumNum(5));
+Console.WriteLine(Multiplate(4));
+Console.WriteLine(Multiplate(5));
